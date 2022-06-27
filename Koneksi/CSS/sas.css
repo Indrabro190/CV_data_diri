@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #fff;
+}
+
+.card {
+    background: azure;
+    border-radius: 30px;
+    box-shadow: 7px 15px 20px black;
+    height: 480px;
+    margin: 6rem auto 8.1rem auto;
+    width: 1300px;
+}
+
+.judul h2 {
+    display: inline-block;
+    margin-top: 2rem;
+    font-family: sans-serif;
+    color: #474787;
+    font-weight: 1000;
+    text-shadow: black;
+}
+
+.sub-judul {
+    display: inline-block;
+    font-family: sans-serif;
+    color: #474787;
+    font-weight: 1000;
+}
+
+.card  {
+    display: block;
+    text-align: left;
+    padding-left: 65px;
+}
+
+.card .judul b {
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.card input {
+    color: #70a1ff;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    background-color: #d2dae2;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 25px;
+    outline: none;
+    box-shadow: 0px 1px 8px #dbedff;
+    transition: 0.25s;
+    font-weight: 600;
+}
+
+.input-judul:hover {
+    color: grey;
+    background-color: #fff;
+}
+
+
+#submit {
+    background: #70a1ff;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    transition: 0.25s;
+    width: 153px;
+    font-size: large;
+    font-weight: 900;
+
+}
+
+#submit:hover {
+    color: #fff;
+    background-color: #3B3B98;
+    transform: translateY(-5px);
+}
